@@ -10,11 +10,11 @@ var nav_12tree = WpNavBar.readTree({
     },
     {   'sTitle':'About Us',
         'bIsExternal':true,
-        'sUrl':'http://schneiderhall.com/about_us.html'
+        'sUrl':'http://schneiderhall.com/m.about_us.html'
     },
     {   'sTitle':'Gallery',
         'bIsExternal':true,
-        'sUrl':'http://schneiderhall.com/gallery.html'
+        'sUrl':'http://schneiderhall.com/m.gallery.html'
     },
     {   'sTitle':'Services',
         'bIsExternal':true,
