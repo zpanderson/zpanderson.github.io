@@ -2,6 +2,10 @@ a:link {color:#ffffff;}
 a:visited {color:#ffffff;}
 a:hover {color:#ffffff;}
 a:active {color:#ffffff;}
+.Wp-Artistic-Body-P
+{
+    margin:0.0px 0.0px 0.0px 48.0px; text-align:left; font-weight:400; text-indent:-15.0px;
+}
 .Wp-Body-P
 {
     margin:0.0px 0.0px 12.0px 48.0px; text-align:left; font-weight:400; text-indent:-15.0px;
@@ -18,11 +22,11 @@ a:active {color:#ffffff;}
 {
     margin:0.0px 0.0px 11.0px 48.0px; text-align:left; font-weight:400; text-indent:-15.0px;
 }
-.Wp-Heading-12-P
-{
-    margin:0.0px 0.0px 11.0px 48.0px; text-align:center; font-weight:400; text-indent:-15.0px;
-}
 .Wp-Heading-2-P
+{
+    margin:0.0px 0.0px 0.0px 48.0px; text-align:left; font-weight:400; text-indent:-15.0px;
+}
+.Wp-Heading-3-P
 {
     margin:0.0px 0.0px 0.0px 48.0px; text-align:left; font-weight:400; text-indent:-15.0px;
 }
@@ -34,14 +38,6 @@ a.Wp-Hyperlink-1-P-H:link {color:#3c6873;}
 a.Wp-Hyperlink-1-P-H:visited {color:#243f45;}
 a.Wp-Hyperlink-1-P-H:hover {color:#182a2e;}
 a.Wp-Hyperlink-1-P-H:active {color:#3c6873;}
-.Wp-Hyperlink-12-P
-{
-    margin:0.0px 0.0px 12.0px 48.0px; text-align:left; font-weight:400; text-indent:-15.0px;
-}
-a.Wp-Hyperlink-12-P-H:link {color:#3c6873;}
-a.Wp-Hyperlink-12-P-H:visited {color:#243f45;}
-a.Wp-Hyperlink-12-P-H:hover {color:#182a2e;}
-a.Wp-Hyperlink-12-P-H:active {color:#3c6873;}
 .Wp-Normal-P
 {
     margin:0.0px 0.0px 0.0px 48.0px; text-align:left; font-weight:400; text-indent:-15.0px;
@@ -50,9 +46,9 @@ a.Wp-Hyperlink-12-P-H:active {color:#3c6873;}
 {
     margin:0.0px 0.0px 12.0px 48.0px; text-align:left; font-weight:400; text-indent:-15.0px;
 }
-.Wp-Price2-P
+.Wp-Subheading-1-P
 {
-    margin:0.0px 0.0px 12.0px 0.0px; text-align:left; font-weight:400;
+    margin:0.0px 0.0px 0.0px 48.0px; text-align:left; font-weight:400; text-indent:-15.0px;
 }
 .Wp-Subheading-3-P
 {
@@ -62,11 +58,7 @@ a.Wp-Hyperlink-12-P-H:active {color:#3c6873;}
 {
     margin:0.0px 0.0px 0.0px 48.0px; text-align:left; font-weight:400; text-indent:-15.0px;
 }
-.Wp-Title-12-P
-{
-    margin:0.0px 0.0px 0.0px 48.0px; text-align:left; font-weight:400; text-indent:-15.0px;
-}
-.Wp-Title-22-P
+.Wp-Title-2-P
 {
     margin:0.0px 0.0px 0.0px 48.0px; text-align:left; font-weight:400; text-indent:-15.0px;
 }

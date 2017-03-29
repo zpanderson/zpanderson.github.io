@@ -6,45 +6,34 @@ var nav_12tree = WpNavBar.readTree({
     'sTarget':'_self',"childArray" : [
     {   'sTitle':'Home',
         'bIsExternal':true,
-        'bIsWebPath':true,
-        'sUrl':'m.index.html'
+        'sUrl':'http://schneiderhall.com/m.index.html'
     },
     {   'sTitle':'About Us',
         'bIsExternal':true,
-        'bIsWebPath':true,
-        'sUrl':'m.about_us.html'
+        'sUrl':'http://schneiderhall.com/m.about_us.html'
     },
     {   'sTitle':'Gallery',
         'bIsExternal':true,
-        'bIsWebPath':true,
-        'sUrl':'m.gallery.html'
+        'sUrl':'http://schneiderhall.com/m.gallery.html'
     },
-    {   'sTitle':'Services',
+    {   'sTitle':'Wedding Packages',
         'bIsExternal':true,
-        'sUrl':'',"childArray" : [
-        {   'sTitle':'Wedding Packages',
-            'bIsExternal':true,
-            'bIsWebPath':true,
-            'sUrl':'m.wedding_packages.html',
-            'sTarget':'_self'
-        },
-        {   'sTitle':'Party Packages',
-            'bIsExternal':true,
-            'bIsWebPath':true,
-            'sUrl':'m.party_packages.html',
-            'sTarget':'_self'
-        }]
+        'sUrl':'http://schneiderhall.com/m.wedding_packages.html',
+        'sTarget':'_self'
+    },
+    {   'sTitle':'Party Packages',
+        'bIsExternal':true,
+        'sUrl':'http://schneiderhall.com/m.party_packages.html',
+        'sTarget':'_self'
     },
     {   'sTitle':'Calendar',
         'bIsExternal':true,
-        'bIsWebPath':true,
-        'sUrl':'m.calendar.html',
+        'sUrl':'http://schneiderhall.com/m.calendar.html',
         'sTarget':'_self'
     },
     {   'sTitle':'Contact Us',
         'bIsExternal':true,
-        'bIsWebPath':true,
-        'sUrl':'m.contact_us.html'
+        'sUrl':'http://schneiderhall.com/m.contact_us.html'
     }]
 }]
 });
