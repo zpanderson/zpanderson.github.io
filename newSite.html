@@ -53,22 +53,13 @@
 
 						<!-- Gallery -->
 							<article id="gallery">
-                                <script src="assets/js/jquery.min.js"></script>
-                                <script src="assets/galleria/galleria-1.5.7.min.js"></script>
 								<h2 class="major">Gallery</h2>
                                 
                                 <!-- Galleria -->
                                 <div class="galleria">
                                     <a href="../../images/bg-01.jpg"><img src="../../images/bg-01_tn.jpg" data-big="../../images/bg-01.jpg" ></a>
                                     <a href="https://vimeo.com/75629906"><span class="video">Watch this on Vimeo!</span></a>
-                                </div>
-                                <script>
-                                    (function() { 
-                                            Galleria.loadTheme('assets/galleria/themes/classic/galleria.classic.min.js');
-                                            Galleria.configure({wait: true});
-                                            Galleria.run('.galleria', {height: 400});
-                                        }());
-                                </script>
+                                </div>                                
 							</article>
 
 						<!-- Packages -->
@@ -186,9 +177,17 @@
 			<div id="bg"></div>
 
 		<!-- Scripts -->
+            <script src="assets/galleria/galleria-1.5.7.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+            <script>
+                (function() { 
+                        Galleria.loadTheme('assets/galleria/themes/classic/galleria.classic.min.js');
+                        Galleria.run('.galleria', {height: 400}, {wait: true, preload: 5});
+                    }());
+            </script>
 
 	</body>
 </html>
