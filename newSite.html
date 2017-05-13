@@ -130,23 +130,24 @@
                                 <h4>Phone: <a href="tel:210-422-4864">210-422-4864</a></h4>
                                 <h4>E-mail: <a href="mailto:SchneiderDanceHall@gmail.com">SchneiderDanceHall@gmail.com</a></h4>
                                 </br>
-								<form method="post" action="#">
+								<form method="post" action="https://formspree.io/SchneiderDanceHall@gmail.com">
 									<div class="field half first">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="name" id="name" required />
 									</div>
 									<div class="field half">
 										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+										<input type="text" name="_replyto" id="email" required/>
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
+										<textarea name="message" id="message" rows="4" required></textarea>
 									</div>
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" class="special" /></li>
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
+                                    <input type="hidden" name="_subject" value="Schneiderhall.com Website Inquiry" />
 								</form>
                                 <div class="responsiveDiv">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.753527169397!2d-96.53044798437816!3d29.668925782020523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8643e7040aea421f%3A0x6b2cfa56bc88a5ba!2sSchneider+Hall!5e0!3m2!1sen!2sus!4v1494555896520" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -185,7 +186,7 @@
 
             <script>
                 (function() { 
-                        Galleria.loadTheme('assets/galleria/themes/classic/galleria.classic.min.js');
+                        Galleria.loadTheme('assets/galleria/themes/twelve/galleria.twelve.min.js');
                         Galleria.configure({wait: true});
                         Galleria.run('.galleria', {height: 400});
                     }());
