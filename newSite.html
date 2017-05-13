@@ -55,11 +55,8 @@
 							<article id="gallery">
 								<h2 class="major">Gallery</h2>
                                 
-                                <!-- Galleria -->
-                                <div class="galleria">
-                                    <a href="../../images/bg-01.jpg"><img src="../../images/bg-01_tn.jpg" data-big="../../images/bg-01.jpg" ></a>
-                                    <a href="https://vimeo.com/75629906"><span class="video">Watch this on Vimeo!</span></a>
-                                </div>                                
+                                <!-- Galleria Placeholder - Get actual pictures from flickr -->
+                                <div class="galleria"></div>                                
 							</article>
 
 						<!-- Packages -->
@@ -180,6 +177,7 @@
 		<!-- Scripts -->
             <script src="assets/js/jquery.min.js"></script>
             <script src="assets/galleria/galleria-1.5.7.min.js"></script>
+            <script src="assets/galleria/plugins/flickr/galleria.flickr.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
@@ -187,8 +185,7 @@
             <script>
                 (function() { 
                         Galleria.loadTheme('assets/galleria/themes/twelve/galleria.twelve.min.js');
-                        Galleria.configure({wait: true});
-                        Galleria.run('.galleria', {height: 400});
+                        Galleria.run('.galleria', {height: 400, wait: true, flickr: 'set:72157680577397144'});
                     }());
             </script>
 
