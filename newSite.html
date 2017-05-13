@@ -185,7 +185,25 @@
             <script>
                 (function() { 
                         Galleria.loadTheme('assets/galleria/themes/twelve/galleria.twelve.min.js');
-                        Galleria.run('.galleria', {height: 400, wait: true, flickr: 'set:72157680577397144'});
+                    
+                        var flickr = new Galleria.Flickr();
+                        flickr.setOptions({
+                            max: 20,
+                            thumbSize: 'medium'
+                        }).set('72157680577397144', function(data) {
+                            // Add vimeo videos to data
+                            data.unshift({
+                                video: 'https://vimeo.com/75629906',
+                                title: 'Heather & Evan Darr',
+                                description: 'September 21st, 2013'
+                            })
+                            data.unshift({
+                                video: 'https://vimeo.com/159041689',
+                                title: 'Adam & Alexis',
+                                description: 'March 15th, 2016'
+                            })
+                            Galleria.run('.galleria', {height: 400, wait: true, dataSource: data, _showPopout: false });
+                        });
                     }());
             </script>
 
