@@ -30,7 +30,7 @@
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#about">About Us</a></li>
+								<li><a href="#about">About</a></li>
 								<li><a href="#gallery">Gallery</a></li>
 								<li><a href="#packages">Packages</a></li>
                                 <li><a href="#calendar">Calendar</a></li>
@@ -114,7 +114,10 @@
                         <!-- Calendar -->
 							<article id="calendar">
 								<h2 class="major">Calendar</h2>
-                                <div class="responsiveDiv"><iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=schneiderdancehall%40gmail.com&amp;color=%23AB8B00&amp;ctz=America%2FChicago" style="border-width:0" width="800" height="600" frameborder="auto" scrolling="no"></iframe></div>
+                                <div class="responsiveDiv" id="calendar">
+                                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=schneiderdancehall%40gmail.com&amp;color=%23AB8B00&amp;ctz=America%2FChicago" style="border-width:0" width="800" height="600" frameborder="auto" scrolling="no"></iframe>
+                                </div>                        
+                                <p> ***Note: If calendar is not visible on mobile, switch to landscape view.</p>
                                 <p>We try our best to keep our calendar up to date, but always <a href="#contact">contact</a> to confirm availability!</p>
 							</article>
                         
@@ -147,7 +150,7 @@
                                     <input type="hidden" name="_subject" value="Schneiderhall.com Website Inquiry" />
 								</form>
                                 <div class="responsiveDiv">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.753527169397!2d-96.53044798437816!3d29.668925782020523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8643e7040aea421f%3A0x6b2cfa56bc88a5ba!2sSchneider+Hall!5e0!3m2!1sen!2sus!4v1494555896520" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.753527169397!2d-96.53044798437816!3d29.668925782020523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8643e7040aea421f%3A0x6b2cfa56bc88a5ba!2sSchneider+Hall!5e0!3m2!1sen!2sus!4v1494555896520" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                                 </div>
 								<ul class="icons">
 									<li><a target="_blank" href="https://www.facebook.com/schneiderhall/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -201,6 +204,13 @@
                                 video: 'https://vimeo.com/159041689',
                                 title: 'Adam & Alexis',
                                 description: 'March 15th, 2016'
+                            })
+                            data.unshift({
+                                video: 'https://www.youtube.com/watch?v=p9l41Xotnu4',
+                                title: 'Lauren & Blake',
+                                description: 'January 21st, 2017',
+                                thumb: '../../images/lauren_and_blake_tn.jpg',
+                                image: '../../images/lauren_and_blake_tn.jpg'
                             })
                             Galleria.run('.galleria', {height: 400, wait: true, dataSource: data, _showPopout: false });
                         });
