@@ -70,7 +70,7 @@
 	body {
 		background: #1b1f22;
 	}
-        /* Commented out b/c it breaks refreshing pages while an article is open 
+
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-switching *, body.is-switching *:before, body.is-switching *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -84,7 +84,7 @@
 			-webkit-transition-delay: none !important;
 			-ms-transition-delay: none !important;
 			transition-delay: none !important;
-		}*/
+		}
 
 /* Type */
 
@@ -1064,14 +1064,14 @@
 		}
 
 		#bg:before {
-			-moz-transition: background-color 2.5s ease-in;
-			-webkit-transition: background-color 2.5s ease-in;
-			-ms-transition: background-color 2.5s ease-in;
-			transition: background-color 2.5s ease-in;
-			/*-moz-transition-delay: 0.75s;
+			-moz-transition: background-color 2.5s ease-in-out;
+			-webkit-transition: background-color 2.5s ease-in-out;
+			-ms-transition: background-color 2.5s ease-in-out;
+			transition: background-color 2.5s ease-in-out;
+			-moz-transition-delay: 0.75s;
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;*/
+			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
 			background-size: auto, 256px 256px;
 			background-position: center, center;
@@ -1245,10 +1245,10 @@
 				-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				-ms-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				/*-moz-transition-delay: 0.25s;
+				-moz-transition-delay: 0.25s;
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
-				transition-delay: 0.25s;*/
+				transition-delay: 0.25s;
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
