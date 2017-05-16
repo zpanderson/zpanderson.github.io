@@ -1606,3 +1606,6 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+/* Disable overlay and show the site! */
+    #loadOverlay{display: none;}
