@@ -446,6 +446,11 @@
 			<script src="assets/js/main.js"></script>
 
             <script>
+                $('#wrapper').css('opacity', 0);
+                $(window).load(function() {
+                    $('#wrapper').css('opacity', 1);
+                });
+                
                 (function() { 
                         Galleria.loadTheme('assets/galleria/themes/twelve/galleria.twelve.min.js');
                     
