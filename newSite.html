@@ -480,11 +480,12 @@
                             })
                             Galleria.run('.galleria', {height: 400, wait: true, dataSource: data, imageCrop: false, _showPopout: false});
                         });
-                    
-                        (function() {
-                            $("#cover").hide();
-                        }());
                     }());
+                
+                    // Hide overlay when ready to rock!
+                    document.addEventListener('DOMContentLoaded', function () {
+                        $("#cover").hide();
+                    });
             </script>
 
 	</body>
