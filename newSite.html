@@ -481,7 +481,9 @@
                             Galleria.run('.galleria', {height: 400, wait: true, dataSource: data, imageCrop: false, _showPopout: false});
                         });
                     
-                        $("#cover").hide();
+                        (function() {
+                            $("#cover").hide();
+                        }());
                     }());
             </script>
 
