@@ -1553,6 +1553,13 @@
 
 		}
 
+/* Vendor page */
+    
+    #vendors nav ul li {
+
+        display:inline-block;
+    } 
+
 /* Embedded Google Stuff */
 
     .responsiveDiv {
