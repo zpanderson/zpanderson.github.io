@@ -3,49 +3,43 @@
 xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
    <url>
       <loc>http://schneiderhall.com</loc>
-      <lastmod>2016-08-15T01:17:16+00:00</lastmod>
+      <lastmod>2017-05-17T01:17:16+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>http://schneiderhall.com/about_us.html</loc>
-      <lastmod>2014-01-30T01:17:16+00:00</lastmod>
+      <loc>http://schneiderhall.com/#about</loc>
+      <lastmod>2017-05-17T01:17:16+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+   <url>
+      <loc>http://schneiderhall.com/#gallery</loc>
+      <lastmod>2017-05-17T01:17:16+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>http://schneiderhall.com/gallery.html</loc>
-      <lastmod>2014-01-30T01:17:16+00:00</lastmod>
+      <loc>http://schneiderhall.com/#packages</loc>
+      <lastmod>2017-05-1701:17:16+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>http://schneiderhall.com/calendar.html</loc>
-      <lastmod>2014-01-30T01:17:16+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>http://schneiderhall.com/services.html</loc>
-      <lastmod>2014-01-30T01:17:16+00:00</lastmod>
+      <loc>http://schneiderhall.com/#vendors</loc>
+      <lastmod>2017-05-17T01:17:16+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
    <url>
-      <loc>http://schneiderhall.com/contact_us.html</loc>
-      <lastmod>2014-01-30T01:17:16+00:00</lastmod>
+      <loc>http://schneiderhall.com/#calendar</loc>
+      <lastmod>2017-05-17T01:17:16+00:00</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.7</priority>
    </url>
    <url>
-      <loc>http://schneiderhall.com/wedding_packages.html</loc>
-      <lastmod>2016-07-24T01:17:16+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>http://schneiderhall.com/party_packages.html</loc>
-      <lastmod>2016-07-24T01:17:16+00:00</lastmod>
+      <loc>http://schneiderhall.com/#contact</loc>
+      <lastmod>2017-05-17T01:17:16+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
