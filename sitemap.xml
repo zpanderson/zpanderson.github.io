@@ -21,7 +21,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
    </url>
    <url>
       <loc>http://schneiderhall.com/#packages</loc>
-      <lastmod>2017-05-1701:17:16+00:00</lastmod>
+      <lastmod>2017-05-17T01:17:16+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
