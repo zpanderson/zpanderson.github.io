@@ -2,45 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
    <url>
-      <loc>http://schneiderhall.com</loc>
+      <loc>https://schneiderhall.com</loc>
       <lastmod>2017-05-17T01:17:16+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
-   </url>
-   <url>
-      <loc>http://schneiderhall.com/#about</loc>
-      <lastmod>2017-05-17T01:17:16+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-   <url>
-      <loc>http://schneiderhall.com/#gallery</loc>
-      <lastmod>2017-05-17T01:17:16+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>http://schneiderhall.com/#packages</loc>
-      <lastmod>2017-05-17T01:17:16+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>http://schneiderhall.com/#vendors</loc>
-      <lastmod>2017-05-17T01:17:16+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.6</priority>
-   </url>
-   <url>
-      <loc>http://schneiderhall.com/#calendar</loc>
-      <lastmod>2017-05-17T01:17:16+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-   <url>
-      <loc>http://schneiderhall.com/#contact</loc>
-      <lastmod>2017-05-17T01:17:16+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
    </url>
 </urlset>
