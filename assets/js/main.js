@@ -24,6 +24,8 @@
 			$footer = $('#footer'),
 			$main = $('#main'),
 			$main_articles = $main.children('article'),
+			$back_to_home=$('#back-to-home'),
+			$back_to_top=$('#back-to-top');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -157,6 +159,9 @@
 												}, delay);
 
 										}, 25);
+									
+									// Active home button
+									$back_to_home.fadeIn(); 
 
 								}, delay);
 
@@ -196,6 +201,9 @@
 												}, delay);
 
 										}, 25);
+									
+									// Active home button
+									$back_to_home.fadeIn();
 
 								}, delay);
 
@@ -230,6 +238,9 @@
 								// Hide article, main.
 									$article.hide();
 									$main.hide();
+								
+								// Hide home button
+									$back_to_home.fadeOut();
 
 								// Show footer, header.
 									$footer.show();
@@ -265,6 +276,9 @@
 							// Hide article, main.
 								$article.hide();
 								$main.hide();
+							
+							// Hide home button
+								$back_to_home.fadeOut();
 
 							// Show footer, header.
 								$footer.show();
@@ -303,8 +317,15 @@
 							.on('click', function() {
 								location.hash = '';
 							});
+					
+					// Add close article to home
+						$back_to_home.on('click', function() {
 								location.hash = '';
 							});
+					
+					// Add back to top function
+						$back_to_top.on('click', function(event) {
+								$window.scrollTop(0);
 							});
 
 					// Prevent clicks from inside article from bubbling.
@@ -399,6 +420,8 @@
 				// Hide main, articles, home button.
 					$main.hide();
 					$main_articles.hide();
+					$back_to_home.hide();
+		
 
 				// Initial article.
 					if (location.hash != ''
