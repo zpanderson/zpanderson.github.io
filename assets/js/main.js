@@ -23,7 +23,7 @@
 			$header = $('#header'),
 			$footer = $('#footer'),
 			$main = $('#main'),
-			$main_articles = $main.children('article');
+			$main_articles = $main.children('article'),
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -303,6 +303,9 @@
 							.on('click', function() {
 								location.hash = '';
 							});
+								location.hash = '';
+							});
+							});
 
 					// Prevent clicks from inside article from bubbling.
 						$this.on('click', function(event) {
@@ -312,13 +315,13 @@
 				});
 
 			// Events.
-				$body.on('click', function(event) {
-
-					// Article visible? Hide.
-						if ($body.hasClass('is-article-visible'))
-							$main._hide(true);
-
-				});
+//				$body.on('click', function(event) {
+//
+//					// Article visible? Hide.
+//						if ($body.hasClass('is-article-visible'))
+//							$main._hide(true);
+//
+//				});
 
 				$window.on('keyup', function(event) {
 
@@ -393,7 +396,7 @@
 
 			// Initialize.
 
-				// Hide main, articles.
+				// Hide main, articles, home button.
 					$main.hide();
 					$main_articles.hide();
 
