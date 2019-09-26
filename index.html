@@ -132,6 +132,16 @@
         <style>
             #cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #000; z-index:9999;}
         </style>
+        
+        
+        <!-- Popup advertising Courtney's show in November! -->
+        <div id="thover"></div>
+          <div id="tpopup">
+            <a href="http://courtney.schneiderhall.com" target="_blank"><span style="margin: 0 0;" class="image main"><img src="images/CourtneyPatton_IGpost.jpg"> </span></a>
+            <div id="tclose">X</div>
+        </div>
+        
+        
         <!-- Back-to-Top Button -->
         <ul id="back-icons" class="icons">
             <li><b id="back-to-top" href="javascript:void(0);" class="icon-arrow-up2"></b></li>
@@ -718,6 +728,25 @@
                     }
                 }
             </script>
+
+            <!-- Script for creating the popup window on load! -->
+            <script>
+                $(document).ready(function() {
+
+                  $("#thover").click(function() {
+                    $(this).fadeOut();
+                    $("#tpopup").fadeOut();
+                  });
+
+                  $("#tclose").click(function() {
+                    $("#thover").fadeOut();
+                    $("#tpopup").fadeOut();
+
+                  });
+                });
+            </script>
+
+
 
 
 	</body>
