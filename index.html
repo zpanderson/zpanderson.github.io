@@ -694,18 +694,18 @@
                             max: 40,
                             thumbSize: 'medium'
                         }).set('72157680577397144', function(data) {
-                            // Add vimeo videos to data
-                            data.unshift({
-                                video: 'https://vimeo.com/159041689',
-                                title: 'Adam & Alexis',
-                                description: 'March 15th, 2016'
-                            })
+                            // Add vimeo videos to data - Vimeo changed API and this is currently broken
+                            //data.unshift({
+                            //    video: 'https://vimeo.com/159041689',
+                            //    title: 'Adam & Alexis',
+                            //    description: 'March 15th, 2016'
+                            //})
                             data.unshift({
                                 video: 'https://www.youtube.com/watch?v=p9l41Xotnu4',
                                 title: 'Lauren & Blake',
                                 description: 'January 21st, 2017',
-                                thumb: '../../images/lauren_and_blake_tn.jpg',
-                                image: '../../images/lauren_and_blake_tn.jpg'
+                                //thumb: '../../images/lauren_and_blake_tn.jpg',
+                                //image: '../../images/lauren_and_blake_tn.jpg'
                             })
                             Galleria.run('.galleria', {height: 400, wait: true, dataSource: data, imageCrop: false, _showPopout: false});
                         });
